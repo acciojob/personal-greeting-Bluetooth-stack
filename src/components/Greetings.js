@@ -14,7 +14,8 @@ const Greetings = ()=>{
 
     return(
         <div>
-            <p>Enter your name:</p>
+            {/* <p></p> */}
+            Enter your name:
             <input type="text" onChange={greet}/>
             <p>{name}</p>
         </div>
